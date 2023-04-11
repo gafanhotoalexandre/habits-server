@@ -1,0 +1,30 @@
+{
+  "name": "habits-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gafanhotoalexandre/habits-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gafanhotoalexandre/habits-server/issues"
+  },
+  "homepage": "https://github.com/gafanhotoalexandre/habits-server#readme",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@prisma/client": "^4.12.0",
+    "fastify": "^4.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.12.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
